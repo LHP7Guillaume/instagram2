@@ -1,7 +1,7 @@
 body{
     background-color: #252422;
     font-family: 'Roboto', sans-serif;
-    /* margin: 0; */
+    margin: 0;
 }
 
 span{
@@ -19,6 +19,7 @@ span{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 h1{
@@ -75,4 +76,27 @@ p{
 .ellipsis{
     font-size: 1rem;
     font-weight: lighter;
+}
+
+.picture{
+    max-width: 100%;
+    margin-bottom: 0.6rem;
+}
+.icons-heart, .incons-comment, .icons-send{
+    margin: 0.7rem;
+
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icons-bookmark{
+    margin-right: 0.7rem;
+}
+.information-time{
+    color: grey;
+}
+.information{
+    margin-left: 0.7rem;
 }
