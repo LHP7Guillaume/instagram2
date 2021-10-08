@@ -1,0 +1,78 @@
+body{
+    background-color: #252422;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0; */
+}
+
+span{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+}
+
+h1{
+    color:grey;
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+p{
+    color: white;
+}
+
+.chevron{
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.user-public{
+    color: white;
+    margin-top: 0.1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.follow{
+    color: #1a759f;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.title-name{
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.title-city{
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.logo{
+    border-radius: 50%;
+    max-width: 2.8rem;
+}
+
+.title{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    vertical-align:middle;
+}
+
+.ellipsis{
+    font-size: 1rem;
+    font-weight: lighter;
+}
